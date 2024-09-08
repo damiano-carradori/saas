@@ -1,5 +1,5 @@
-function main() {
-    console.log('Hello, World!');
+function main(name) {
+    console.log(`Hello, ${name}!`);
 }
 
-main();
+main('World');
